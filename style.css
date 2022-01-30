@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  height: auto;
+}
+
+h1 {
+  height: 10px;
+  color: white;
+  margin-left: 100px;
+}
+.header {
+  background-image: url(hero-cover.3.png);
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 0px;
+}
+
+.inner-first {
+  float: right;
+  list-style: none;
+  padding-right: 500px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: fit-content;
+  margin: 0px;
+  height: 20px;
+
+}
+
+.member{
+list-style: none;
+display: flex;
+flex-flow: row;
+margin: auto;
+position: absolute;
+top: 0px;
+right: 0px;
+padding-top: 20px;
+justify-content: space-between;
+
+}
+.member button{
+  background-color: blue;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  height: 30px;
+  padding-right: 50px;
+
+}
+.member:first-child{
+    height: 40px;
+    color: black;
+  }
+
+body {
+  background-color: #c0c0c0;
+  height: 1000px;
+  margin: 0px;
+}
+.inner-first a {
+  display: flex;
+  float: left;
+  padding: 0px 20px;
+  font-size: 20px;
+  margin: auto;
+  width: fit-content;
+  color: white;
+}
+
+div {
+  height: 1000px;
+}
+
+.header p {
+  font-weight: 800;
+  color: white;
+}
+
+.paragraph-1 {
+  width: 100%;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  font-size: 50px;
+  padding-top: 250px;
+  width: 600px;
+  font-weight: bolder;
+}
+
+.paragraph-2 {
+  text-align: center;
+  padding-top: 50px;
+  margin: auto;
+  width: fit-content;
+  font-size: 25px;
+}
+
+.b1 {
+  border-radius: 15px 15px 15px 15px;
+  background-color: #23a6f0;
+  color: white;
+  border: none;
+}
+
+.b2 {
+  border-radius: 15px 15px 15px 15px;
+  background-color: transparent;
+  border-color: whitesmoke;
+}
+
+.b1,
+.b2 {
+  padding: 10px 10px;
+}
+
+.buttons {
+  height: 20px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.box1 {
+  float: left;
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-style: solid white;
+  font-size: 12px;
+  padding-top: 20px;
+}
+.box1 > p > strong {
+  font-size: 25px;
+  text-align: center;
+}
+
+.box2 {
+  float: left;
+  background-color: white;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.box2 > p > strong {
+  text-align: center;
+  font-size: 25px;
+}
+.box3 {
+  float: right;
+  background-color: seagreen;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #23a6f0;
+}
+
+.box3 > p > strong {
+  text-align: centre;
+  font-size: 25px;
+}
+.firstboxes {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 280px;
+}
+
+.firstboxes img {
+  float: left;
+  height: 50px;
+  justify-content: space-between;
+}
+.firstboxes p {
+  color: black;
+  padding-left: 20px;
+}
+.firstboxes > p:firstclass {
+  font-weight: bold;
+}
+
+.second-container {
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.second-container p {
+  color: black;
+}
+.second-raw1 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.second-raw1 > p > strong {
+  text-align: center;
+  font-size: 25px;
+}
+.second-raw2 {
+  text-align: center;
+  font-size: 12px;
+}
+.second-raw2 > p > strong {
+  font-size: 25px;
+}
+.second-raw3 {
+  text-align: center;
+  font-size: 12px;
+}
+.second-raw3 > p > strong {
+  font-size: 25px;
+}
+
+.third-container {
+  height: 1500px;
+  width: 100%;
+}
+.third-container h1 {
+  text-align: center;
+  padding-top: 80px;
+  color: black;
+  font-size: 40px;
+  padding-right: 50px;
+}
+.third-container p {
+  text-align: center;
+  padding-top: 40px;
+  color: black;
+}
+
+.third-main {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 12px;
+}
+.third1 {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  border-style: groove;
+  border-radius: 10px 10px 10px 10px;
+}
+.third2 {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  border-style: groove;
+  border-radius: 10px 10px 10px 10px;
+  clear: none;
+}
+.third3 {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  border-style: groove;
+  border-radius: 10px 10px 10px 10px;
+}
+.third1 img {
+  height: 150px;
+  padding-top: 20px;
+}
+.third2 img {
+  height: 150px;
+  padding-top: 20px;
+}
+.third3 img {
+  height: 150px;
+  padding-top: 20px;
+}
+.third1 span {
+  color: orange;
+  padding-top: 20px;
+}
+.third2 span {
+  color: orange;
+  padding-top: 20px;
+}
+.third3 span {
+  color: orange;
+  padding-top: 20px;
+}
+.third-second {
+  height: 80px;
+  display: flex;
+  position: relative;
+  padding-top: 200px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.third-second img {
+  float: left;
+  margin: auto;
+  height: 30px;
+}
+.subscribe {
+  height: 80px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  border-style: solid;
+  background-color: royalblue;
+  border-;
+}
+.subscribe p {
+  color: white;
+  margin: auto
+  height: 10px;
+  padding-bottom: 50px;
+}
+.subscribe label {
+  font-size: 15px;
+  background-color: white;
+  height: 30px;
+  width: 400px;
+  text-align: start;
+}
+.subscribe > label > button {
+  color: black;
+  background-color: blue;
+  float: right;
+}
+
+.pricing{
+  height: 600px;
+
+}
+.pricing h1{
+  text-align: center;
+  padding-right: 100px;
+}
+.pricing p{
+  font-size: 12px;
+  padding-bottom: 80px;
+}
+.t1{
+  height: 400px;
+  background-color: brown;
+}
+.t2{
+  height: 400px;
+  background-color: burlywood;
+
+}
+.t3{
+  height: 400px;
+  background-color: cyan;
+}
+.ttt{
+  height: 400px;
+}
