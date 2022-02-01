@@ -1,9 +1,9 @@
 * {
   margin: 0;
   height: auto;
-  @media only screen and (min-width:200px){
-  }
+  @media only screen and (min-width:200px)
 }
+
 
 h1 {
   height: 10px;
@@ -449,11 +449,14 @@ background-color: blue;
   background-color: white;
 }
 
+
 .branches{
   background-color:  #252B42;
   color: white;
   display: flex;position: relative;
   margin-top: 100px;
+  padding-bottom: 350px;
+  z-index: -1;
 }
 .branch1{
   text-align: center;
@@ -470,6 +473,8 @@ height: 200px;
 .appointment {
   display: flex;
   justify-content: center;
+  margin-top: -300px;
+  z-index: 1;
 }
 .contact-img {
   height: 500px;
@@ -491,4 +496,35 @@ height: 200px;
   padding: 10px 30px;
   background-color: #23a6f0;
   color: white;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  margin-top: 3100px!important;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+ul li{
+  size: 20px;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.icons1{
+  float: left;
+}
+
+@media only screen and (max-width:1328) {
+  .branch1 h1 {
+    margin-bottom: 53px;
+  }
 }
