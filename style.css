@@ -135,6 +135,7 @@ div.header {
   border-style: solid white;
   font-size: 12px;
   padding-top: 20px;
+  justify-content: baseline;
 }
 .box1 > p > strong {
   font-size: 25px;
