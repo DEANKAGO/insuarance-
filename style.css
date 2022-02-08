@@ -17,6 +17,7 @@ h1 {
   background-repeat: no-repeat;
   vertical-align: top;
   margin: 0px;
+  justify-content: baseline;
 }
 
 .inner-first {
@@ -28,7 +29,6 @@ h1 {
   width: fit-content;
   margin: 0px;
   height: 20px;
-  justify-content: baseline;
 
 }
 
