@@ -184,6 +184,7 @@ div.header {
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 280px;
+  justify-content: baseline;
 }
 
 .firstboxes img {
