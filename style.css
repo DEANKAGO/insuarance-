@@ -49,6 +49,7 @@ justify-content: space-between;
   color: white;
   height: 30px;
   padding-right: 50px;
+  justify-content: baseline;
 
 }
 .member:first-child{
